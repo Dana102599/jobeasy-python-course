@@ -3,5 +3,7 @@
 # !important you should save only number to result_temperature. Formula (32°F − 32) × 5/9 = 0°C
 
 # type your code here
-temperature_fahrenheit = None
-result_temperature = None
+temperature_fahrenheit = int("34")
+Celsius = (temperature_fahrenheit - 32) * 5.0/9.0
+result_temperature =Celsius
+print(result_temperature)
